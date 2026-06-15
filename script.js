@@ -1,4 +1,5 @@
 // CÓDIGO DO MODAL
+document.addEventListener("DOMContentLoaded", () => {
 let btnAjuda = document.querySelector(".botao-ajuda");
 let btnFechar = document.querySelector(".botao-fechar");
 let modal = document.querySelector(".modal-fundo");
@@ -82,3 +83,4 @@ function finalizarLeitura() {
     lendo = false;
     btnLeitura.textContent = "Ouvir Texto"; // Reseta o texto do botão
 }
+});
