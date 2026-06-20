@@ -213,6 +213,7 @@ h2 {
 footer {
     display: block;
     background: var(--primaria);
+    font-size: 25px;
     color: white;
     text-align: center;
     padding: 40px 20px;
